@@ -16,12 +16,6 @@ import draggable from 'vuedraggable'
 export default {
   components: { draggable },
 
-  data () {
-    return {
-      myteams: []
-    }
-  },
-
   computed: {
     teams: {
       get() {
